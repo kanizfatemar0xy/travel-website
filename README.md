@@ -15,9 +15,9 @@ A frontend travel gallery by **Kaniz Fatema Roxy**, featuring destinations aroun
 - Use keyboard navigation and inspect descriptive image alternatives and landmarks.
 - View the original HTML/CSS files and the automated local-link and accessibility-structure checks.
 
-**Run locally:** open \`index.html\` in a browser, or run \`python -m http.server 8000\` and visit http://localhost:8000.
+**Run locally:** open `index.html` in a browser, or run `python -m http.server 8000` and visit http://localhost:8000.
 
-**Check:** \`python -m unittest discover -s tests -v\`.
+**Check:** `python -m unittest discover -s tests -v`.
 
 **Limitations:** no live bookings, accounts, payment processing or published video demo. The code deliberately does not request real passwords or payment details. Ensure rights to the example images before any commercial use.
 
