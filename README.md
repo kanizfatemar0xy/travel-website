@@ -1,51 +1,25 @@
-# 🌍 Travel With Me
+# Travel With Me — Responsive Travel Gallery
 
-### ✨ Frontend Travel Website
+[![Static site checks](https://github.com/kanizfatemar0xy/travel-website/actions/workflows/site-checks.yml/badge.svg)](https://github.com/kanizfatemar0xy/travel-website/actions/workflows/site-checks.yml)
 
-![HTML5](https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-222222?style=for-the-badge&logo=github&logoColor=white)
+A responsive HTML/CSS student portfolio website by **Kaniz Fatema Roxy**, featuring a gallery of landscapes around Chattogram, Bangladesh.
 
----
+**Live (if GitHub Pages is enabled):** https://kanizfatemar0xy.github.io/travel-website/
 
-## 🧭 About the Project
+## Features
+- Homepage and two destination galleries with local images
+- Responsive navigation and mobile layouts
+- Semantic HTML, alt text, visible keyboard focus and skip navigation
+- Informational booking and account pages that **do not collect personal data**
+- An honest placeholder for the not-yet-published video walkthrough
+- GitHub Actions checks for broken local links, missing images and unsafe demo forms
 
-**Travel With Me** is a frontend travel website created using **HTML and CSS**.
+## Run locally
+Clone the repo and open `index.html`, or use `python -m http.server 8000` and visit http://localhost:8000.
 
-The website includes:
+## Test
+`python -m unittest discover -s tests -v`
 
-- 🏠 Home page
-- 📍 Places page
-- 📝 Booking page
-- 👤 Sign Up page
-- 🎥 Glimpse page
-- 🖼️ Travel images
-- 🔗 Navigation between pages
+This is a **frontend demonstration only**. It does not process bookings, payments or sign-ups. The former PHP-targeted forms were removed because no PHP backend exists on GitHub Pages. Original sample images are retained; confirm rights before commercial use.
 
----
-
-## 🌐 Live Website
-
-### [🚀 View Live Website](https://kanizfatemar0xy.github.io/travel-website/)
-
----
-
-## 📁 Project Files
-
-```text
-index.html
-tour.html
-tour2.html
-bookings.html
-pform.html
-vid.html
-style.css
-p.css
-images
-```
-
----
-
-## 👩‍💻 Author
-
-### Kaniz Fatema Roxy
+[Kaniz Fatema Roxy on GitHub](https://github.com/kanizfatemar0xy)
