@@ -1,43 +1,50 @@
-# Travel With Me | Responsive Multipage Travel Gallery
+# Travel With Me — Responsive Multipage Travel Gallery
 
 [![Static site checks](https://github.com/kanizfatemar0xy/travel-website/actions/workflows/site-checks.yml/badge.svg)](https://github.com/kanizfatemar0xy/travel-website/actions/workflows/site-checks.yml)
 
-**HTML5 · CSS3 · Mobile responsive · GitHub Pages · Accessibility basics**
+**HTML5 · CSS3 · Responsive Layout · Semantic Markup · GitHub Pages**
 
-A frontend travel gallery by **Kaniz Fatema Roxy**, featuring destinations around Chattogram, Bangladesh. The project is a static demo, not a booking or payment service.
+A student frontend project by **Kaniz Fatema Roxy**, presenting beaches, mountains, islands and other scenery around Chattogram, Bangladesh. The site demonstrates multipage navigation, responsive design and safe static content.
 
-**[▶ Visit live website](https://kanizfatemar0xy.github.io/travel-website/)** · **[👩‍💻 View full developer portfolio](https://kanizfatemar0xy.github.io/travel-website-project/portfolio.html)** · **[Browse source](index.html)** · **[Site tests](tests/test_site.py)**
+**[Visit live website](https://kanizfatemar0xy.github.io/travel-website/)** · **[Explore code](index.html)** · **[View tests](tests/test_site.py)** · **[Full developer portfolio](https://kanizfatemar0xy.github.io/travel-website-project/portfolio.html)**
 
-## What visitors can try
+## What you can explore
 
-- Navigate between the home page, destination galleries and informational pages.
-- Resize the window or use a phone to inspect the responsive layout.
-- Use keyboard navigation and inspect descriptive image alternatives and landmarks.
-- View the original HTML/CSS files and the automated local-link and accessibility-structure checks.
+- Homepage, destination galleries and an informational booking page
+- Responsive navigation and layouts for smaller screens
+- Local travel photographs, accessible image alternatives and keyboard-friendly links
+- Sign-up and booking **demonstration pages only**; no collection of passwords or real payment information
+- A placeholder for a future video walkthrough, clearly marked as not yet published
 
-**Run locally:** open `index.html` in a browser, or run `python -m http.server 8000` and visit http://localhost:8000.
+## Getting started
 
-**Check:** `python -m unittest discover -s tests -v`.
+No dependencies or backend are needed. Open `index.html` directly, or run a local web server in the repository directory:
 
-**Limitations:** no live bookings, accounts, payment processing or published video demo. The code deliberately does not request real passwords or payment details. Ensure rights to the example images before any commercial use.
+```bash
+python -m http.server 8000
+```
 
+Open http://localhost:8000 in a browser. To run automated checks, use a **separate terminal**:
 
-**Live (if GitHub Pages is enabled):** https://kanizfatemar0xy.github.io/travel-website/
+```bash
+python -m unittest discover -s tests -v
+```
 
-## Features
-- Homepage and two destination galleries with local images
-- Responsive navigation and mobile layouts
-- Semantic HTML, alt text, visible keyboard focus and skip navigation
-- Informational booking and account pages that **do not collect personal data**
-- An honest placeholder for the not-yet-published video walkthrough
-- GitHub Actions checks for broken local links, missing images and unsafe demo forms
+These tests check local navigation targets, image assets, basic accessibility markup and the absence of unsafe forms. The [GitHub Actions workflow](.github/workflows/site-checks.yml) runs the same tests on updates.
 
-## Run locally
-Clone the repo and open `index.html`, or use `python -m http.server 8000` and visit http://localhost:8000.
+## Key files
 
-## Test
-`python -m unittest discover -s tests -v`
+| File | Purpose |
+| --- | --- |
+| [`index.html`](index.html) | Home page |
+| [`tour.html`](tour.html), [`tour2.html`](tour2.html) | Destination galleries |
+| [`bookings.html`](bookings.html), [`pform.html`](pform.html) | Informational demo pages |
+| [`vid.html`](vid.html) | Video-demo placeholder |
+| [`style.css`](style.css) | Responsive frontend styling |
+| [`tests/test_site.py`](tests/test_site.py) | Static-site checks |
 
-This is a **frontend demonstration only**. It does not process bookings, payments or sign-ups. The former PHP-targeted forms were removed because no PHP backend exists on GitHub Pages. Original sample images are retained; confirm rights before commercial use.
+## Scope and limitations
 
-[Kaniz Fatema Roxy on GitHub](https://github.com/kanizfatemar0xy)
+This is a **frontend demonstration, not a travel agency**. It does not support accounts, travel bookings, payment processing or a real backend. The previous PHP form targets have been removed. Images come from the original student project; their reuse rights should be checked before commercial use. Automated checks do not replace manual mobile-browser or accessibility testing.
+
+**Developer:** [Kaniz Fatema Roxy](https://github.com/kanizfatemar0xy) · [Portfolio](https://kanizfatemar0xy.github.io/travel-website-project/portfolio.html) · [LinkedIn](https://www.linkedin.com/in/kaniz-fatema-roxy)
